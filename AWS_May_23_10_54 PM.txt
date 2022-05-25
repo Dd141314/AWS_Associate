@@ -54,7 +54,7 @@ EKS (Elastic Kubernetes Service)
 Open source container management service to add or remove containers on the fly depending upon load.
 
 LightSail
-Virtual server which enables us to quickly setup without going through lots of options availabel in EC2 service.
+Virtual server which enables us to quickly setup without going through lots of options available in EC2 service.
 
 Batch
 Fully managed batch processing at any scale.
@@ -71,9 +71,87 @@ Run Code without Thinking about Servers.
 Serverless Application Repository (SAR)
 Repository for SAM (serverless application model) templates to run, manage and deploy serverless applications.
 
-
 Storage
+Services which provide storage with scalability, efficiency and redundancy.
+
+Simple Storage Service (S3)
+Object based storage service.
+
+Elastic File System (EFS)
+Shared file system for linux based EC2 instances.
+
+File System X (FSx)
+Shared file system for windows based EC2 instances.
+
+Elastic Block Storage (EBS)
+Block based storage which is attached to one EC2 instance at a time.
+
+Backup
+Centralized way of backing up services in your account.
+
+Storage Gateway
+Integrate your on-premise service with cloud(S3, EBS etc) for seamless access to information.
+
+Datasync
+Transfer data from on-premise to AWS or vice versa using the public internet.
+
+Transfer Family
+Migrate data to and from S3 using SFTP, FTPS and FTP protocols.
+
+Snow Family
+Physical migration of humungous data (hundred's of terabytes) using a snow family device (snowball edge, snowmobile etc)
 
 Database 
+Services which offer a variety of databases.
+
+RDBMS
+Storing data in a fixed format like table.
+
+Relational Database Service (RDS)
+Managed database service to run the below mentioned database engines:
+- OracleDb
+- MySQl
+- PostGreSql
+- MicrosoftSql
+- MariaDB
+- AuroraDB
+        - MySQl
+		- PostGreSql
+
+Redshift
+Petabyte scale datawarehousing solution to analyze information.
+
+NoSQL 
+Storing data in a free flowing format like key-value pair or JSON.
+
+DynamoDB
+Managed NoSQL AWS proprietary database. 
+
+ElastiCache
+Managed caching service which supports either a Redis engine or a Memcached engine.
+
+DocumentDB
+Managed database service with mongoDb compatible engine.
+
+Keyspaces
+Managed database service with cassandra compatible engine.
+
+Neptune
+Managed graph based database service with highly connected datasets.
+
+Quantum Ledger Database (QLDB)
+Immutable and cryptographically verifiable by a centralised trusted authority.
+
+
+
+
+
+
+
+
+
+
+
+
 
 Networking
